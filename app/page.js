@@ -1,7 +1,7 @@
 import Encryption from "@/components/main/Encryption";
 import Hero from "@/components/main/Hero";
 import Projects from "@/components/main/Projects";
-import Skills from "@/components/main/Skills";
+import Skills from "@/components/skills";
 import Footer from "@/components/main/Footer";
 
 export default function Home() {

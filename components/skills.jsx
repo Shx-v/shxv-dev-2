@@ -2,8 +2,8 @@ import {
     Backend_skill,
     Frontend_skill,
   } from "@/constants";
-  import SkillDataProvider from "../sub/SkillDataProvider";
-  import SkillText from "../sub/SkillText";
+  import SkillDataProvider from "./sub/SkillDataProvider";
+  import SkillText from "./sub/SkillText";
   
   const Skills = () => {
     return (
