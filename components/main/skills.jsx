@@ -14,7 +14,7 @@ import {
       >
         <SkillText />
   
-        <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
+        {/* <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
           {Frontend_skill.map((image, index) => (
             <SkillDataProvider
               key={index}
@@ -35,9 +35,9 @@ import {
               index={index}
             />
           ))}
-        </div>
+        </div> */}
   
-        {/* <div className="w-full h-full absolute">
+        <div className="w-full h-full absolute">
           <div className="w-full h-full z-[-10] opacity-30 absolute flex items-center justify-center bg-cover">
             <video
               className="w-full h-auto"
@@ -49,7 +49,7 @@ import {
               src="/cards-video.webm"
             />
           </div>
-        </div> */}
+        </div>
       </section>
     );
   };
