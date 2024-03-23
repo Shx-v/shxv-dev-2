@@ -3,13 +3,9 @@ import {
   RxDiscordLogo,
   RxGithubLogo,
   RxInstagramLogo,
-  RxTwitterLogo,
-  RxLinkedinLogo,
 } from "react-icons/rx";
 import { SiGeeksforgeeks } from "react-icons/si";
 import { TbBrandLeetcode } from "react-icons/tb";
-import { FaYoutube } from "react-icons/fa";
-import Link from "next/link";
 
 const Footer = () => {
   return (

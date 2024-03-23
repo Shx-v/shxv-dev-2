@@ -1,14 +1,17 @@
 "use client";
 
-import { Socials } from "@/constants";
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
-import { FaBarsStaggered } from "react-icons/fa6";
-import { FaBars } from "react-icons/fa6";
+import { saveAs } from "file-saver";
 
 const Navbar = () => {
   const [prevScrollPos, setPrevScrollPos] = useState(0);
   const [visible, setVisible] = useState(true);
+
+  const handleDownload = () => {
+    const resumeUrl = '../../public/Core_CV.pdf';
+    saveAs(resumeUrl, 'Resume_Shivranjan Bharadwaj')
+  }
 
   useEffect(() => {
     const handleScroll = () => {
@@ -64,7 +67,7 @@ const Navbar = () => {
           <a href="#skills" className="cursor-pointer max-[800px]:hidden">
             Skills
           </a>
-          <div className="cursor-pointer border rounded-full px-3 border-[#7042f88b]">
+          <div className="cursor-pointer border rounded-full px-3 border-[#7042f88b]" onClick={handleDownload}>
             Resume
           </div>
         </div>

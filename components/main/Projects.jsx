@@ -15,11 +15,15 @@ const Projects = () => {
           src="/MoviePedia.png"
           title="MoviX: A movie browsing website"
           description="A ReactJS movie browsing website leveraging an API to showcase the latest movie suggestions and detailed information, providing users with a comprehensive cinematic experience."
+          github={"https://github.com/Shx-v/MoviePage.git"}
+          pageLink={"https://movie-pedia-gy6p.vercel.app/"}
         />
         <ProjectCard
           src="/CarHub.png"
           title="Cars: Car buying platform"
           description="A comprehensive car buying platform integrating multiple APIs to display detailed listings of vehicles for sale, showcasing various specifications and information about each car."
+          github={"https://github.com/Shx-v/CarStore.git"}
+          pageLink={"https://car-store-one.vercel.app/"}
         />
         <ProjectCard
           src="/Portfolio.png"
