@@ -8,10 +8,19 @@ const Navbar = () => {
   const [prevScrollPos, setPrevScrollPos] = useState(0);
   const [visible, setVisible] = useState(true);
 
+  // const handleDownload = () => {
+  //   const resumeUrl = '../../public/Core_CV.pdf';
+  //   saveAs(resumeUrl, 'Resume_Shivranjan Bharadwaj')
+  // }
+
   const handleDownload = () => {
-    const resumeUrl = '../../public/Core_CV.pdf';
-    saveAs(resumeUrl, 'Resume_Shivranjan Bharadwaj')
-  }
+    const link = document.createElement("a");
+    link.href = "/Core_CV.pdf";
+    link.download = "Shivranjan Bharadwaj Resume.pdf";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
 
   useEffect(() => {
     const handleScroll = () => {
@@ -56,7 +65,7 @@ const Navbar = () => {
             Shxv.Dev
           </span>
         </a>
-        
+
         <div className="flex flex-row gap-5 font-bold">
           <a href="#about-me" className="cursor-pointer max-[800px]:hidden">
             About me
@@ -67,7 +76,10 @@ const Navbar = () => {
           <a href="#skills" className="cursor-pointer max-[800px]:hidden">
             Skills
           </a>
-          <div className="cursor-pointer border rounded-full px-3 border-[#7042f88b]" onClick={handleDownload}>
+          <div
+            className="cursor-pointer border rounded-full px-3 border-[#7042f88b]"
+            onClick={handleDownload}
+          >
             Resume
           </div>
         </div>

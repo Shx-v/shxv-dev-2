@@ -1,9 +1,5 @@
 import React from "react";
-import {
-  RxDiscordLogo,
-  RxGithubLogo,
-  RxInstagramLogo,
-} from "react-icons/rx";
+import { RxDiscordLogo, RxGithubLogo, RxInstagramLogo } from "react-icons/rx";
 import { SiGeeksforgeeks } from "react-icons/si";
 import { TbBrandLeetcode } from "react-icons/tb";
 
@@ -65,7 +61,9 @@ const Footer = () => {
               <span className="text-[15px] ml-[6px]">Twitter</span>
             </a>
             <a
-              href={"https://www.linkedin.com/in/shivranjan-bharadwaj-b87b70245/?originalSubdomain=in"}
+              href={
+                "https://www.linkedin.com/in/shivranjan-bharadwaj-b87b70245/?originalSubdomain=in"
+              }
               target="_blank"
               rel="noopener noreferrer"
               className="flex flex-row items-center my-[15px] cursor-pointer"
