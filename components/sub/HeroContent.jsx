@@ -50,7 +50,8 @@ const HeroContent = () => {
         <motion.a
           variants={slideInFromLeft(1)}
           className="py-2 button-primary text-center text-white cursor-pointer border border-[#7042f88b] rounded-lg max-w-[200px]"
-          onClick={() => console.log("first")}
+          // onClick={() => console.log("first")}
+          href="https://shxv-dev-3.vercel.app/"
         >
           Learn More!
         </motion.a>
