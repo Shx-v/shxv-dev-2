@@ -17,7 +17,7 @@ const Encryption = () => {
       })
       .then(
         () => {
-          console.log("SUCCESS!");
+          form.current.reset();
         },
         (error) => {
           console.log("FAILED...", error.text);
@@ -39,12 +39,12 @@ const Encryption = () => {
         <form
           ref={form}
           onSubmit={sendEmail}
-          className="w-full max-w-lg md:min-w-[30%] bg-white rounded-lg p-6 shadow-lg"
+          className="w-full max-w-lg md:min-w-[30%] p-6"
         >
           <div className="mb-4">
             <label
               htmlFor="name"
-              className="block font-bold mb-1 text-gray-700"
+              className="block font-bold mb-1 text-gray-400"
             >
               Name:
             </label>
@@ -59,7 +59,7 @@ const Encryption = () => {
           <div className="mb-4">
             <label
               htmlFor="email"
-              className="block font-bold mb-1 text-gray-700"
+              className="block font-bold mb-1 text-gray-400"
             >
               Email:
             </label>
@@ -74,7 +74,7 @@ const Encryption = () => {
           <div className="mb-4">
             <label
               htmlFor="message"
-              className="block font-bold mb-1 text-gray-700"
+              className="block font-bold mb-1 text-gray-400"
             >
               Message:
             </label>

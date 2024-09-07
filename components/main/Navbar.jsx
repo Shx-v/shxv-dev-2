@@ -15,7 +15,7 @@ const Navbar = () => {
 
   const handleDownload = () => {
     const link = document.createElement("a");
-    link.href = "/Core_CV.pdf";
+    link.href = "/Shivranjan Bharadwaj_Resume.pdf";
     link.download = "Shivranjan Bharadwaj Resume.pdf";
     document.body.appendChild(link);
     link.click();
