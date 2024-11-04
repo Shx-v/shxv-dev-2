@@ -53,7 +53,7 @@ const HeroContent = () => {
           // onClick={() => console.log("first")}
           href="https://shxv-dev-3.vercel.app/"
         >
-          Learn More!
+          View More!
         </motion.a>
       </div>
 

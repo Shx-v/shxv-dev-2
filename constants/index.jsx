@@ -84,6 +84,12 @@ export const Frontend_skill = [
 
 export const Backend_skill = [
   {
+    skill_name: "Spring Boot",
+    Image: "/spring-boot-logo.png",
+    width: 80,
+    height: 80,
+  },
+  {
     skill_name: "Node js",
     Image: "/node-js.png",
     width: 80,

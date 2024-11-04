@@ -53,7 +53,7 @@ const Encryption = () => {
               type="text"
               name="user_name"
               required
-              className="w-full px-3 py-2 rounded-md border border-gray-300 text-black outline-none focus:border-blue-500"
+              className="w-full px-3 py-2 rounded-md border border-gray-300 text-white outline-none focus:border-blue-500 bg-transparent"
             />
           </div>
           <div className="mb-4">
@@ -68,7 +68,7 @@ const Encryption = () => {
               type="email"
               name="user_email"
               required
-              className="w-full px-3 py-2 border rounded-md border-gray-300 text-black outline-none focus:border-blue-500"
+              className="w-full px-3 py-2 border rounded-md border-gray-300 text-white outline-none focus:border-blue-500 bg-transparent"
             />
           </div>
           <div className="mb-4">
@@ -82,12 +82,12 @@ const Encryption = () => {
               id="message"
               name="message"
               required
-              className="w-full px-3 py-2 border rounded-md h-32 border-gray-300 text-black outline-none focus:border-blue-500"
+              className="w-full px-3 py-2 border rounded-md h-32 border-gray-300 text-white outline-none focus:border-blue-500 bg-transparent"
             />
           </div>
           <button
             type="submit"
-            className="bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-600 transition duration-200"
+            className="bg-gradient-to-r from-purple-500 to-cyan-500 text-white py-2 px-4 rounded-md"
           >
             Submit
           </button>

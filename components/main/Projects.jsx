@@ -15,20 +15,22 @@ const Projects = () => {
           src="/MoviePedia.png"
           title="MoviX: A movie browsing website"
           description="A ReactJS movie browsing website leveraging an API to showcase the latest movie suggestions and detailed information, providing users with a comprehensive cinematic experience."
-          github={"https://github.com/Shx-v/MoviePage.git"}
-          pageLink={"https://movie-pedia-gy6p.vercel.app/"}
+          github={"https://github.com/Shx-v/MoviePage"}
+          pageLink={"https://movie-pedia-shxv.vercel.app/"}
         />
         <ProjectCard
           src="/CarHub.png"
           title="Cars: Car buying platform"
           description="A comprehensive car buying platform integrating multiple APIs to display detailed listings of vehicles for sale, showcasing various specifications and information about each car."
-          github={"https://github.com/Shx-v/CarStore.git"}
+          github={"https://github.com/Shx-v/CarStore"}
           pageLink={"https://car-store-one.vercel.app/"}
         />
         <ProjectCard
-          src="/Portfolio.png"
-          title="Portfolio"
-          description="A dynamic portfolio crafted with NextJS, enriched with immersive visuals powered by ThreeJS, offering an engaging user experience through seamless integration of cutting-edge technologies."
+          src="/map-marker.png"
+          title="Map Marker"
+          description="A map marker project allows users to interact with a map by placing custom markers at specific locations. Users can add, edit, and delete markers to represent points of interest or locations with additional details."
+          github={"https://github.com/Shx-v/MapMarker"}
+          pageLink={"https://map-marker-pi.vercel.app/"}
         />
       </div>
     </div>

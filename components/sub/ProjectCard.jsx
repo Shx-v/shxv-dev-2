@@ -4,7 +4,7 @@ import { FaLink, FaGithub } from "react-icons/fa";
 
 const ProjectCard = ({ src, title, description, github, pageLink }) => {
   return (
-    <div className="relative overflow-hidden rounded-lg shadow-lg border border-[#2A0E61] z-20">
+    <div className="relative overflow-hidden rounded-lg shadow-lg border border-[#2A0E61] z-20 w-[450px]">
       <Image
         src={src}
         alt={title}
